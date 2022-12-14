@@ -2,9 +2,9 @@
 
 /**
  *_abs - function that computes the absolute value of an integer
- * @r: An integre input
+ * @c: An integre input
  * Description: This function returns absolute value of a number
- * Return: Absolut value of number r
+ * Return: Absolut value of number c
  */
 int _abs(int c)
 {

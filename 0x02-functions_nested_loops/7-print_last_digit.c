@@ -2,9 +2,9 @@
 
 /**
  * print_last_digit - function that computes the absolute value of an integer
- * @r: An integer input
+ * @c: An integer input
  * Description: This function prints the last digit of a number
- * Return: last digit of number r
+ * Return: last digit of number c
  */
 int print_last_digit(int c)
 {
