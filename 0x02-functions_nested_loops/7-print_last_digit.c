@@ -2,21 +2,19 @@
 
 /**
  * print_last_digit - function that computes the absolute value of an integer
- * @c: An integer input
+ * @r: An integer input
  * Description: This function prints the last digit of a number
- * Return: last digit of number c
+ * Return: last digit of number r
  */
-int print_last_digit(int c)
+int print_last_digit(int r)
 {
-	if (c > 0 || c == 0)
-	{
-	_putchar (c % 10 + '0');
-	return (c % 10);
-	}
+	int n;
+
+	if (r < 0)
+		n = -1 * (r % 10);
 	else
-	{
-	c = c * -1;
-	_putchar (c % 10 + '0');
-	return (c % 10);
-	}
+		n = r % 10;
+
+	_putchar((n % 10) + '0');
+	return (n % 10);
 }
